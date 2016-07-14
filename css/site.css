@@ -4,7 +4,8 @@ body{
 .top-pagina{
     text-align: center;
     background-color: lightslategray;
-    padding: 2em;
+    padding: 1em;
+    font-size: 2em;
 }
 .navegacao-pagina{
     text-align: center;
@@ -14,12 +15,10 @@ body{
 .navegacao-pagina li{
     display: inline;
 }
-.navegacao-pagina a{
-}
 .Content{
     padding: 20em;
     text-align: center;
-    background-color: dodgerblue;
+    background-color: lightskyblue;
     margin: auto;
 }
 .rodape-pagina{
