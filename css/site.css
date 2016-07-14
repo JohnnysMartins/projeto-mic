@@ -1,3 +1,30 @@
-.top-pagina li{
+body{
+    font-family: sans-serif;
+}
+.top-pagina{
+    text-align: center;
+    background-color: lightslategray;
+    padding: 2em;
+}
+.navegacao-pagina{
+    text-align: center;
+    background-color: lightgray;
+    padding: 1em;
+}
+.navegacao-pagina li{
     display: inline;
+}
+.navegacao-pagina a{
+}
+.Content{
+    padding: 20em;
+    text-align: center;
+    background-color: dodgerblue;
+    margin: auto;
+}
+.rodape-pagina{
+    text-align: center;
+    background-color: lightslategray;
+    padding: 2em;
+    display: block;
 }
