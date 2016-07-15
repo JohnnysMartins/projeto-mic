@@ -1,5 +1,8 @@
 body{
     font-family: sans-serif;
+    background-color: lightskyblue;
+    font-size: 120%;
+    line-height: 1.5;
 }
 .top-pagina{
     text-align: center;
@@ -12,18 +15,31 @@ body{
     background-color: lightgray;
     padding: 1em;
 }
-.navegacao-pagina li{
-    display: inline;
-}
 .Content{
-    padding: 20em;
-    text-align: center;
+    margin: 1em;
     background-color: lightskyblue;
-    margin: auto;
+    margin: 0;
 }
 .rodape-pagina{
-    text-align: center;
     background-color: lightslategray;
-    padding: 2em;
+    padding: 1em;
+    clear: both;
+    position: absolute;
     display: block;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.contato{
+    float: left;
+    width: 40%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.endereco{
+    float: right;
+    width: 40%;
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 20px;
 }

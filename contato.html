@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title></title>
+        <title>CONTATO</title>
         <meta charset="UTF-8">
+        <link href="css/reset.css" rel="stylesheet">
         <link href="css/site.css" rel="stylesheet">
     </head>
     <body>
@@ -10,18 +11,38 @@
             <h1>HTML5 & CSS3</h1>
             
         </header>
-        <aside class="navegacao-pagina">
-            <ul>
-                <li><a href="index.html">Principal</a></li>
-                <li><a href="">Sobre</a></li>
-                <li><a href="contato.html">Contato</a></li>
-            </ul>
-        </aside>
+        <nav class="navegacao-pagina">
+            <a href="index.html">Principal</a>
+            <a href="">Sobre</a>
+            <a href="contato.html">Contato</a>
+        </nav>
         <main class="Content">
-            <form>
-Nome: <input type="text" name="firstname"><br>
-sobrenome: <input type="text" name="lastname">
-</form>
+            <section class="Content contato">
+                <h1>Contato</h1>
+                <p>nome completo</p>
+                <form>
+                    <input type="text" name="firstname"><br>
+                </form>
+                <form>
+                    <select name=“Genero">
+                        <option value="vazio">  </option>
+                        <option value="Masculino">Masculino</option>
+                        <option value="Feminino">Feminino</option>
+                    </select>
+                </form>
+                <p>Mensagem</p>
+                <form>
+                    <textarea rows="10" cols="70"></textarea>
+                </form>
+                <form class="bt">
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+            <section class="Content endereco">
+                <h1>Endereço</h1>
+                <p>Av.Agamenon magalhães, 2121 - Espinheiro. Recife-PE - CEP 52123-000</p>
+                <p>Fone 55 81 3456.3232 | <a href="html5@css3.com.br">html5@css3.com.br</a></p>
+            </section>
         </main>
         <footer class="rodape-pagina">
            Copyright &copy; HTML5CSS3 2016 - Todos os direitos reservados
