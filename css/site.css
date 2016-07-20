@@ -57,10 +57,22 @@ body{
 }
 /*---------------------rodape-pagina------------------*/
 #rodape-pagina{
-    min-height: 100px;
+    color: #fff;
+    position: relative;
+    min-height: 150px;
     background-color: mediumseagreen;
+    text-align: center;
 }
-#rodape-pagina ul li{
+.nav-rodape{
+    position: absolute;
+    right: 10ch;
+    margin: 10px 0;
+}
+.nav-rodape ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.sociais ul li{
     list-style: none;
     display: inline;
 }
