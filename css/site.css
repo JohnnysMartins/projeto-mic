@@ -1,3 +1,17 @@
+html{
+    font-family: sans-serif;
+}
+h1,h2{
+    font-family: 'Indie Flower', cursive;
+}
+
+/*---------------------menu------------------*/
+#menu{
+    min-height: 100px;
+    background-color: mediumseagreen;
+}
+body{
+}
 #menu img{
     float: left;
 
@@ -6,16 +20,47 @@
     list-style: none;
     text-align: center;
     padding: 0;
+    margin-right: 2%;
 }
 #menu ul li{
     display: inline;
 }
 #menu ul li a{
     float: right;
-    margin-right: 5%;
-    width: 5%;
-    padding: 12px 0;
+    width: 7%;
+    padding: 50px 0;
     display: inline-block;
-    color: #000;
+    color: #fff;
     text-decoration: none;
+}
+/*---------------------backgroud------------------*/
+#folha-de-rosto{
+    min-height: 100px;
+    background-color: pink;
+    text-align: center;
+    padding: 10%;
+}
+/*---------------------cabecalho------------------*/
+#cabecalho{
+    text-align: center;
+    padding: 1.5em;
+    background-color: mediumseagreen; 
+}
+#cabecalho h1{
+    font-size: 1.6em;
+}
+/*---------------------content------------------*/
+#content{
+    min-height: 100px;
+    text-align: center;
+    padding: 10%;
+}
+/*---------------------rodape-pagina------------------*/
+#rodape-pagina{
+    min-height: 100px;
+    background-color: mediumseagreen;
+}
+#rodape-pagina ul li{
+    list-style: none;
+    display: inline;
 }
