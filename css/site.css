@@ -1,8 +1,12 @@
 html{
     font-family: sans-serif;
 }
+h1{
+    font-size: 1.6em;
+}
 h1,h2{
     font-family: 'Indie Flower', cursive;
+    
 }
 
 /*---------------------menu------------------*/
@@ -46,9 +50,6 @@ body{
     padding: 1.5em;
     background-color: mediumseagreen; 
 }
-#cabecalho h1{
-    font-size: 1.6em;
-}
 /*---------------------content------------------*/
 #content{
     min-height: 100px;
@@ -56,23 +57,53 @@ body{
     padding: 10%;
 }
 /*---------------------rodape-pagina------------------*/
-#rodape-pagina{
+.rodape-pagina{
     color: #fff;
     position: relative;
     min-height: 150px;
+    padding: 16%;
     background-color: mediumseagreen;
-    text-align: center;
+    box-sizing: border-box;
+}
+.rodape-pagina figure{
+    position: absolute;
+    left: 10ch;
+    top: 20%;
 }
 .nav-rodape{
     position: absolute;
-    right: 10ch;
-    margin: 10px 0;
+    right: 5ch;
+    top: 20%;
+    
+}
+.nav-rodape a{
+    padding: 10px;
+    line-height: 1.5;
+}
+address{
+    position: absolute;
+    top: 20%;
+    left: 45%;
 }
 .nav-rodape ul li a{
     text-decoration: none;
     color: #fff;
 }
+.sociais{
+    background: url(img/mini-social-icons.png);
+
+}
+.facebook{
+    width: 86px;
+    height: 86px;
+    background-position: 0 0;
+}
 .sociais ul li{
     list-style: none;
     display: inline;
+}
+#pe{
+    position: absolute;
+    left: 45%;
+    bottom: 0;
 }
